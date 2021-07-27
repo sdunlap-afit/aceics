@@ -3,9 +3,6 @@
 </div><br clear="all" /><br>
 
 
-
-
-
 # ACE 2021 - Industrial Control Systems
 
 ## Introduction
@@ -15,11 +12,11 @@ Welcome to ICS security. Today you will explore a programmable logic controller 
 ## Schedule
 
 	0830 - 0930:	Lecture
-	0930 - 1000:	Intro/demo
-	1000 - 1200:	Basic labs
+	0930 - 1030:	Intro/demo
+	1030 - 1200:	Lab time
 	1200 - 1300:	Lunch
 	1300 - 1330:	Discussion and/or questions
-	1300 - 1530:	Advanced labs
+	1300 - 1530:	Lab time
 
 
 ## Equipment
@@ -62,14 +59,21 @@ Each Raspberry Pi is directly connected to the MicroLogix 1100 via an Ethernet c
 
 Read through the documentation in this order.
 
-* [Network Information](./01_network.md)
+1. [Network Information](./01_network.md)
 
-* [Simulation Raspberry Pi vnc](./02_hilics_vnc.md)
-* [PLC's web interface](./03_web_interface.md)
-* [Setup RSLinx to connect to the PLC](./04_rslinx.md)
-* [RSLogix background](./05_rslogix.md)
-* [Retrieve the PLC's project file (Upload)](./06_upload.md)
-* [Program the PLC (Download)](./07_download.md)
-* [See the PLC in operation live (Go Online)](./08_online.md)
+1. [Simulation Raspberry Pi vnc](./02_hilics_vnc.md)
+1. [PLC's web interface](./03_web_interface.md)
+1. [Setup RSLinx to connect to the PLC](./04_rslinx.md)
+1. [RSLogix background](./05_rslogix.md)
+1. [Retrieve the PLC's project file (Upload)](./06_upload.md)
+1. [Program the PLC (Download)](./07_download.md)
+1. [Intro to Ladder Logic](./08_ladder_logic.md)
+1. [See the PLC operating live (Go Online)](./09_online.md)
 
+
+# Exercises
+
+1. [Familiarization](./exercise1.md)
+
+1. [Door attack](./exercise2.md)
 

@@ -1,9 +1,11 @@
 
-# Door simulation attack
+# Door simulation attacks
 
 
 The purpose of this exercise is for you to take what you've learned thus far and use it for evil...
 You will use RSLogix to disable the safety feature that prevents the door from crashing down onto a passing care. Then you will modify the controller's code to make it automatically crash the door into a passing car. 
+
+
 
 ## Introduction
 
@@ -21,7 +23,6 @@ You will use RSLogix to disable the safety feature that prevents the door from c
 
 
 
-
 ### 1. Crash the door into the car
 
 Your first objective is to use RSLogix to crash the door into the car. With RSLogix in Online mode, use Forces to cause the crash. Remove the Forces when you're done.
@@ -35,6 +36,8 @@ Note: This attack requires you to be actively connected to the PLC, and it requi
 ### 2. Disable the safety feature
 
 Your next objective is to figure out what prevents the door from going down while a car is present and then disable this function. Do NOT use forces, instead, modify the ladder logic. The goal is for this attack to work without you monitoring the system.
+
+**Note: While you can change parts of the ladder logic while Online, it's best to Go Offline, make your changes and then download the new code to the PLC.**
 
 Show that you disabled it by clicking the "CLOSE" button while a car is passing and crash the door into the car. 
 
