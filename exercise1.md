@@ -19,7 +19,7 @@ The purpose of this exercise is to familiarize you with RSLogix and the Simulati
 
 2. On the [Raspberry Pi](./02_hilics_vnc.md), select the IO Test application. In RSLogix, in LAD 2, which subroutine (Ladder) is getting called?
 
-    **NOTE: U:5 (LAD 5) is always called, but doesn't control anything unless I:0/7 - I:0/9 have specific values.**
+    **NOTE: U:5 (LAD 5) is always called, but doesn't control anything unless I:0/7 - I:0/9 have specific value.**
 
 3. Again, on the [Raspberry Pi](./02_hilics_vnc.md), select "Back" and then open the Door simulation. In RSLogix, which Ladder is being called now?
 
@@ -30,10 +30,10 @@ The purpose of this exercise is to familiarize you with RSLogix and the Simulati
 <img src="./img/ex1_01.png" width="700">
 </div><br/>
 
-    Note:
-    As long as a subroutine (Ladder) is executed (called), Output Energize commands (B3:1/2 in the previous screenshot) will always set the value of the given variable. Because of this, it is best practice to have only one Output Energize for any given variable. Otherwise, the Output Energize commands will compete and your code will be much harder to follow.
+Note:
+As long as a subroutine (Ladder) is executed (called), Output Energize commands (B3:1/2 in the previous screenshot) will always set the value of the given variable. Because of this, it is best practice to have only one Output Energize for any given variable. Otherwise, the Output Energize commands will compete and your code will be much harder to follow.
 
-    Alternatively, Move, Latch, Unlatch, and other commands only change their variable if the inputs of the rung evaluate to High/True. Because of this, you can have multiple Move commands for a single Dest variable, as long as the logic for the Moves ensures that only one executes at a time. Look at how N7:2 is set in LAD 5 for an example.
+Alternatively, Move, Latch, Unlatch, and other commands only change their variable if the inputs of the rung evaluate to High/True. Because of this, you can have multiple Move commands for a single Dest variable, as long as the logic for the Moves ensures that only one executes at a time. Look at how N7:2 is set in LAD 5 for an example.
 
 
 5. On the [Raspberry Pi](./02_hilics_vnc.md), select the IO Test application again. In RSLogix open LAD 3. 
