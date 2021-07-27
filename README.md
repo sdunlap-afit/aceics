@@ -73,7 +73,18 @@ Read through the documentation in this order.
 
 # Exercises
 
+I have four exercises planned for today. They will probably take longer than you have time for, so it's ok if you don't finish everything. I will leave the HILICS kits and this Github page up until ACE is over, so you can revisit this if you have some down time.
+
+Feel free to complete them in any order; however, you may miss some useful information if you skip ahead. I recommend at least skimming them all first.
+
 1. [Familiarization](./exercise1.md)
 
-1. [Door attack](./exercise2.md)
+1. [Door simulation attacks](./exercise2.md)
 
+1. [Fluid Tank simulation attacks](./exercise3.md)
+
+1. [Custom exploit development](./exercise4.md)
+
+
+
+When you're done, please fill out [this anonymous survey](https://docs.google.com/forms/d/e/1FAIpQLSfQBPGj1IZ4i3MEplFjXIlTl6LEWxhWHdIzfahgy25niwQJKA/viewform?usp=sf_link). This is just for me to improve the content for next year, so please be honest. You should not need to log into Google to fill out the form. 
