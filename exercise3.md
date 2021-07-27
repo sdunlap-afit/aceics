@@ -2,7 +2,7 @@
 # Fluid Tank simulation attacks
 
 
-The goal of this exercise is for you to use what you've learned to attack the Fluid Tank simulation. You will use RSLogix to purposely overflow the water tank. Then, you will make more subtle modifications to cause other effects.
+The goal of this exercise is for you to use what you've learned to attack the Fluid Tank simulation. You will use RSLogix to purposely overflow the water tank. Then, you will make more sophisticated modifications to cause more subtle effects.
 
 **Note: While you can change parts of the ladder logic while Online, it's best to Go Offline, make your changes, download the new code to the PLC and go Online again.**
 

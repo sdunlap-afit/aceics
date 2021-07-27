@@ -56,7 +56,7 @@ For more information about the simulation, read this document (**Note: you do no
 https://github.com/sdunlap-afit/hilics/blob/master/labs/L3_Tank_Control.md
 
 
-Today, you will use the engineering software to purposely overflow the water tank. Then, you will make a more subtle modification to cause the level of the tank to remain higher than it is intended.
+Today, you will use the engineering software to purposely overflow the water tank. Then, you will make more sophisticated modifications to cause more subtle effects.
 
 <div align="center">
 <img src="./img/tank1.png" width="500">
