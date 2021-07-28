@@ -3,7 +3,7 @@
 
 **Each breakout room (BR) has their own HILICS kit. Only connect to the IP address of your kit; do not connect to any other teams' kits.**
 
-* The subnet is 192.168.223.0\24. Your specific HILICS kit IP is (100 + BR number). For example, the IP address for BR 20 is:
+* The subnet is 192.168.223.0\24. Your specific HILICS kit IP is (100 + BR number). For example, the IP address for BR 30 is:
 
 ```
 192.168.223.120
@@ -12,7 +12,7 @@
 * To repeat, your IP address is:
 
 ```
-192.168.223.[100 plus your breakout room number]
+192.168.223.[90 plus your breakout room number]
 ```
 
 
