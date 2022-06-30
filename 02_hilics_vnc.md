@@ -1,7 +1,7 @@
 
 # VNC connection
 
-Use the following URL to access the simulation for your HILICS kit (substitute your breakout room number in place of XX). 
+Use the following URL to access the simulation for your HILICS kit (substitute your IP in place of XX). 
 
 ```
 http://192.168.223.1XX:6080/vnc.html?autoconnect=true&port=6080&password=password

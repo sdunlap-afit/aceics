@@ -32,7 +32,7 @@ RSLinx is proprietary software that acts as a communications gateway for PLCs. T
 <img src="./img/rslinx4.png" width="500">
 </div><br/>
 
-5. If you waited a couple minutes and RSLinx still fails to connect, let me know via Zoom and I can take a look. I will be monitoring all the PLCs, so I should see if one goes offline. We do have backups, so if one kit fails, I can assign you another kit.
+5. If you waited a couple minutes and RSLinx still fails to connect, let me know and I can take a look. I will be monitoring all the PLCs, so I should see if one goes offline. We do have backups, so if one kit fails, I can assign you another kit.
 
 <div align="center">
 <img src="./img/rslinx5.png" width="500">
