@@ -11,12 +11,30 @@ Welcome to ICS security. Today you will explore a programmable logic controller 
 
 ## Schedule
 
-	0830 - 0930:	Lecture
-	0930 - 1030:	Intro/demo
-	1030 - 1200:	Lab time
+	0830 - 0930:	Discussion
+	0930 - 1200:	Intro/demo/Lab
 	1200 - 1300:	Lunch
 	1300 - 1330:	Discussion and/or questions
-	1300 - 1530:	Lab time
+	1330 - 1530:	Lab time
+
+
+## Outline
+
+* Motivation
+	* Embedded systems
+	* AF activities
+	* Critical Infrastructure
+* Shodan demo
+* HILICS Setup
+* Exercises 1-3
+* Lunch
+* Q&A
+* Discussion - Attack sophistication
+* Exercise 4
+	* Register Session
+	* Request Identity
+	* Forces
+* Wrap up
 
 
 ## Equipment
@@ -87,4 +105,3 @@ Feel free to complete them in any order; however, you may miss some useful infor
 
 
 
-When you're done, please fill out [this anonymous survey](https://docs.google.com/forms/d/e/1FAIpQLSfQBPGj1IZ4i3MEplFjXIlTl6LEWxhWHdIzfahgy25niwQJKA/viewform?usp=sf_link). This is just for me to improve the content for next year, so please be honest. You should not need to log into Google to fill out the form. 

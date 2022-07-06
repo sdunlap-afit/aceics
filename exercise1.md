@@ -6,7 +6,7 @@ The purpose of this exercise is to familiarize you with RSLogix and the Simulati
 
 ## Instructions
 
-1. Read through the documentation numbered 01-09. This information provided is necessary to complete the exercises.
+1. Read through the documentation numbered 01-09. This information is necessary to complete the exercises.
 
 
 2. If you haven't already, [retrieve the project file from your PLC](./06_upload.md) and [Go Online](./09_online.md).
