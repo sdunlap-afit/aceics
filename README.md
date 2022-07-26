@@ -9,6 +9,14 @@
 
 Welcome to ICS security. Today you will explore a programmable logic controller that is controlling two simulated processes. The equipment you will be working with is representative of control devices you might find as part of a larger control system network. You will learn how to explore unknown control devices, configure proprietary software to interface with the controller, and use your access to manipulate the processes. In a real-world scenario, an adversary's attack will depend on their desired effect (e.g., equipment damage, process manipulation, etc.). 
 
+
+## Remote help
+
+Due to COVID, I will be teaching from home. If you need help troubleshooting, we can use this Jitsi link for screen sharing. 
+
+https://vtc.ccrhub.org/ace_help
+
+
 ## Schedule
 
 	0830 - 0930:	Discussion
@@ -20,16 +28,13 @@ Welcome to ICS security. Today you will explore a programmable logic controller 
 
 ## Outline
 
-* Motivation
-	* Embedded systems
-	* AF activities
-	* Critical Infrastructure
+* Discussion
 * Shodan demo
 * HILICS Setup
 * Exercises 1-3
 * Lunch
 * Q&A
-* Discussion - Attack sophistication
+* Discussion
 * Exercise 4
 	* Register Session
 	* Request Identity
