@@ -19,7 +19,7 @@ The purpose of this exercise is to familiarize you with RSLogix and the Simulati
 
 2. On the [Raspberry Pi](./02_hilics_vnc.md), select the IO Test application. In RSLogix, in LAD 2, which subroutine (Ladder) is getting called?
 
-    **NOTE: U:5 (LAD 5) is always called, but doesn't control anything unless I:0/7 - I:0/9 have specific value.**
+    **NOTE: U:5 (LAD 5) is always called, but doesn't control anything unless I:0/7 - I:0/9 have specific values.**
 
 3. Again, on the [Raspberry Pi](./02_hilics_vnc.md), select "Back" and then open the Door simulation. In RSLogix, which Ladder is being called now?
 
