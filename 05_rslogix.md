@@ -18,7 +18,7 @@ For some reason, in ICS, simple terminology such as "download" and "upload" are 
 
 * **Download** - send a project file from the programming software to the PLC (like I said, backward).
 
-* **Upload** - retrieve a project file (the source code) from a PLC to the programming software. Most PLCs have this feature, although the retrieved project file will most likely lack comments and other meta data.
+* **Upload** - retrieve a project file (the source code) from a PLC to the programming software. Most PLCs have this feature, although the retrieved project file will most likely lack comments and other metadata.
 
 * **Online** - the programming software maintains an active network connection to monitor the state of the programming. This is used for debugging, troubleshooting or temporarily monitoring a PLC in operation. You will use this mode to figure out how the code works and make sure that your code works as expected.
 
