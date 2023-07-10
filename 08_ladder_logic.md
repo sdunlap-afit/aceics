@@ -42,7 +42,7 @@ For bits (binary values) the number after the slash '/' (e.g., I:0/3) is the bit
 <img src="./img/ladderlogic9.png" width="500">
 </div><br/>
 
-**TIP: In the simulations, the addressed for the Inputs and Outputs are shown next to the buttons/indicators.**
+**TIP: In the various simulations, the addresses for the Inputs and Outputs are shown next to the buttons/indicators.**
 
 <div align="center">
 <img src="./img/iotest1.png" width="500">
@@ -89,7 +89,7 @@ boolean output = input1 AND input2....
 <img src="./img/ladderlogic6.png" width="700">
 </div><br/>
 
-Most other operations will either happen or not-happen depending on the inputs. This includes math operations, move operations, latch, unlatch, etc. If the input logic results in a low, then nothing will change.
+Most other operations will either happen or not-happen depending on the inputs. This includes math operations, move, latch, unlatch, etc. If the input logic results in a low, then nothing will change.
 
 <div align="center">
 <img src="./img/ladderlogic5.png" width="700">
