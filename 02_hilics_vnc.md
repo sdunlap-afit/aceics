@@ -56,7 +56,7 @@ For more information about the simulation, read this document (**Note: you do no
 https://github.com/sdunlap-afit/hilics/blob/master/labs/L3_Tank_Control.md
 
 
-Today, you will use the engineering software to purposely overflow the water tank. Then, you will make more sophisticated modifications to cause more subtle effects.
+Today, you will use the engineering software to manipulate the water level in the tank and cause the pump to oscillate wildly. 
 
 <div align="center">
 <img src="./img/tank1.png" width="500">

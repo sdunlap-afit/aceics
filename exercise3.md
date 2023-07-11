@@ -22,22 +22,7 @@ The goal of this exercise is for you to use what you've learned to attack the Fl
 ### IMPORTANT: Save a copy of the original project file from the PLC before you begin. You will want to revert to that later.
 
 
-### 1. Overflow the water tank
-
-Your first objective is to overflow the tank. There are multiple ways you can accomplish this. One of the easiest ways is to modify the Source of a Move command for one of the fluid level setpoints. 
-
-**Do not set the value higher than 1000, or it will cause a fault.**
-
-<div align="center">
-<img src="./img/ex3_02.png" width="200">
-</div><br/>
-
-<div align="center">
-<img src="./img/ex3_01.png" width="500">
-</div><br/>
-
-
-### 2. Inaccurate fluid level in the tank
+### 1. Inaccurate fluid level in the tank
 
 You have the luxury of being able to see the ground truth physical process (or at least the simulation). Operators cannot always see the physical process (e.g., a fully enclosed fuel tank in a aircraft refueling system), so they have to trust what their PLC and sensors are telling them. Most of the time, they get this information from a human machine interface (HMI), and the HMI gets the information from the network. Assuming the HMI reads the water level from the PLC using variable N7:0, can you manipulate the fluid level in the tank without the HMI seeing the difference? Note: we don't actually have an HMI, so you'll have to use your imagination. 
 
@@ -53,12 +38,12 @@ This Scale w/ Parameters (SCP) command handles the scaling from the input (I:0.4
 After downloading, wait for the system to stabilize again. What is the value of N7:0? Does it match your previous value? Is the process simulation responding as expected?
 
 <div>
-<img align="left" src="./img/ex3_06.png" height="200">
-<img align="right" src="./img/ex3_07.png" height="350">  
+<img align="left" src="./img/ex3_04.png" height="200">
+<img align="right" src="./img/ex3_05.png" height="350">  
 </div><br clear="all" /><br>
 
 
-### 3. Pump oscillations
+### 2. Pump oscillations
 
 Your next objective is to cause the pump to constantly change speed, thus causing oscillations in the process as well as increasing wear-and-tear on the pump. 
 
@@ -68,15 +53,15 @@ The pump is controlled by a [Proportional Integral Derivative (PID) controller](
 * While Offline, find the PID PD9 on Rung 0015 of LAD 5. Click "Setup Screen" to access the tuning parameters. Change the values to match the values here. 
 
 <div>
-<img align="left" src="./img/ex3_04.png" height="200">
-<img align="right" src="./img/ex3_05.png" height="200">  
+<img align="left" src="./img/ex3_02.png" height="200">
+<img align="right" src="./img/ex3_03.png" height="200">  
 </div><br clear="all" /><br>
 
 Download the project file and watch the simulation to see the result. Here is what mine looked like before and after the change.
 
 <div>
 <img align="left" src="./img/tank1.png" height="250">
-<img align="right" src="./img/ex3_03.png" height="250">  
+<img align="right" src="./img/ex3_01.png" height="250">  
 </div><br clear="all" /><br>
 
 
