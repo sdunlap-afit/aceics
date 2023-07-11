@@ -76,11 +76,15 @@ A Ladder is made up of Rungs. Rungs execute from left to right. You can kind of 
 <img src="./img/ladderlogic4.png" width="700">
 </div><br/>
 
+<div align="center">
+<img src="./img/ladderlogic4_2.png" width="700">
+</div><br/>
+
 
 If the rung is still High after it gets through all the logic, then the output on the right side will execute. 
 
 
-For an Output Energize operation, the value of the output will reflect the resulting value of the rung. in pseudocode:
+For an Output Energize operation, the value of the output will reflect the resulting value of the rung. In pseudocode:
 ```
 boolean output = input1 AND input2....
 ```

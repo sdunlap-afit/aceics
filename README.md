@@ -10,17 +10,11 @@
 Welcome to ICS security. Today you will explore a programmable logic controller that is controlling two simulated processes. The equipment you will be working with is representative of control devices you might find as part of a larger control system network. You will learn how to explore unknown control devices, configure proprietary software to interface with the controller, and use your access to manipulate the processes. In a real-world scenario, an adversary's attack will depend on their desired effect (e.g., equipment damage, process manipulation, etc.). 
 
 
-## Remote help
-
-Due to COVID, I will be teaching from home. If you need help troubleshooting, we can use this Jitsi link for screen sharing. 
-
-https://vtc.ccrhub.org/ace_help
-
-
 ## Schedule
 
-	0830 - 0930:	Discussion
-	0930 - 1200:	Intro/demo/Lab
+	0800 - 0900:	Discussion
+	0900 - 1100:	Intro/demo/Lab
+	1100 - 1200:	Someone else
 	1200 - 1300:	Lunch
 	1300 - 1330:	Discussion and/or questions
 	1330 - 1530:	Lab time
@@ -41,6 +35,21 @@ https://vtc.ccrhub.org/ace_help
 	* Forces
 * Wrap up
 
+
+## Cyber-physical Systems
+
+Cyber-physical systems are computer-based systems designed to control physical processes. Self-driving cars are excellent examples of cyber-physical systems. In my opinion, the most likely areas of cyber-physical systems you may get into during your military career (both offensive or defensive) are **industrial control systems and weapon systems.**
+
+
+Process control typically involves:
+
+* Sensors - devices that measure some aspect of their environment, such as temperature, pressure, acceleration, position, etc.
+* Actuators - devices that act on their environment, such as motors, valves, heating elements, etc.
+* Controllers - processors and peripherals that handle the intelligence behind the process control.
+
+<div align="center">
+<img src="./img/process_control.png" width="500">
+</div><br/>
 
 ## Equipment
 
