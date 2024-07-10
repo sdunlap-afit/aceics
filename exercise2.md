@@ -11,11 +11,11 @@ You will use RSLogix to disable the safety feature that prevents the door from c
 
 1. On the [Raspberry Pi](./02_hilics_vnc.md), open the Door simulation. 
 
-2. Open the door by clicking the "OPEN" button (I:0/2). 
+1. Open the door by clicking the "OPEN" button (I:0/2). 
 
-3. Once it is open, click the "Car" button and see how the Proximity sensor reacts. The car will stay there for 10 seconds before disappearing. You can click the "Car" button periodically to keep resetting the 10 second timer.
+1. Once it is open, click the "Car" button and see how the Proximity sensor reacts. The car will stay there for 10 seconds before disappearing. You can click the "Car" button periodically to keep resetting the 10 second timer.
 
-4. While the car is present, click the "CLOSE" button. Does the door go down?
+1. While the car is present, click the "CLOSE" button. Does the door go down?
 
 ## Instructions
 
@@ -57,8 +57,8 @@ Note: This attack is effective, except that it will crash into the first car tha
 
 1. What are some ways a defender could prevent this attack using network defenses? 
 
-2. What security functions (firewall, antivirus, etc.) would a PLC need to prevent this attack even if the adversary gained network access to the PLC?
+1. What security functions (firewall, antivirus, etc.) would a PLC need to prevent this attack even if the adversary gained network access to the PLC?
 
-3. How could an asset owner redesign the physical system to prevent this attack even if an adversary gained control of the PLC?
+1. How could an asset owner redesign the physical system to prevent this attack even if an adversary gained control of the PLC?
 
 

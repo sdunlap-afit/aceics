@@ -3,7 +3,13 @@
 
 ## Objective
 
-Up until now, you have relied on RSLogix for your attacks. While this is effective, it: 1) requires a human to operate the GUI, 2) is difficult to automate, and 3) is not very subtle. Did you notice how the process simulation acted while you were downloading your modified ladder logic?
+Up until now, you have relied on RSLogix for your attacks. While this is effective, it: 
+  
+1. Requires a human to operate the GUI. 
+1. Is difficult to automate.
+1. Is not very subtle. 
+  
+Did you notice how the process simulation acted while you were downloading your modified ladder logic?
 
 One of the most difficult attacks to detect is when an adversary issues valid commands that cause a device to behave in an unsafe manner. Since the commands are not malformed or unusual, most firewalls and intrusion detection systems will miss them entirely. You will develop this type of attack.
 
@@ -14,7 +20,7 @@ The techniques you will learn in this lab can be used in many areas, such as aut
 
 # Python Primer
 
-You are going to write a Python 3 script to connect to the PLC and send it a few commands. This primer should help get you started.
+You are going to write a Python script to connect to the PLC and send it a few commands. This primer should help get you started.
 
 ## Socket Programming (TCP Client)
 
@@ -184,9 +190,9 @@ Rockwell clearly doesn't know how to close a TCP connection. This is most likely
 
 When scanning an unknown device, obtaining the model number and firmware version of the device is very wise. 
 
-In `ENIP_Initial_Connection.pcapng`, look for a **response** packet containing the string, "```1763-L16BWA B/14.00```". This is the model number and firmware version of your PLC. Your model or firmware version may be slightly different. 
+In `ENIP_Initial_Connection.pcapng`, look for a **response** packet containing the string, "```1763-L16BWA B/16.00```". This is the model number and firmware version of your PLC. Your model or firmware version may be slightly different. 
 
-Once you find the response from the PLC, you need to identify the corresponding request. Many times, this will be the request directly preceding the response; however, RSLinx may use more than one TCP connection, or can interweave requests (i.e., send multiple requests before getting any responses).
+Once you find the response from the PLC, you need to identify the corresponding request. Many times, this will be the request directly preceding the response; however, RSLinx may use more than one TCP connection or can interweave requests (i.e., send multiple requests before getting any responses).
 
 Add this request to your script. I recommend writing a Python function/subroutine for each type of request. Your script should now:
 
@@ -197,7 +203,7 @@ Add this request to your script. I recommend writing a Python function/subroutin
 
 	Note: do not use `hex()` to print the response or you won't see the model string. Print the raw packet. You'll get some garbage, but the model will be mixed in (it's already in ASCII)
 
-Use Wireshark to double check your script.
+Use Wireshark to double-check your script.
 
 
 

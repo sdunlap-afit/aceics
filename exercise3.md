@@ -8,13 +8,13 @@ The goal of this exercise is for you to use what you've learned to attack the Fl
 
 
 
-## Introduction
+## Setup
 
 1. On the [Raspberry Pi](./02_hilics_vnc.md), open the Fluid Tank simulation. In RSLogix, open LAD 5 in [Online mode](./09_online.md).
 
-2. Change the Level SP in the simulation and see what changes in RSLogix. Which variable in RSLogix determines the level setpoint? 
+1. Change the Level SP in the simulation and see what changes in RSLogix. Which variable in RSLogix determines the level setpoint? 
 
-2. Change the Inflow SP in the simulation and see what changes in RSLogix. Which variable in RSLogix determines the inflow setpoint? 
+1. Change the Inflow SP in the simulation and see what changes in RSLogix. Which variable in RSLogix determines the inflow setpoint? 
 
 
 ## Instructions
@@ -47,27 +47,27 @@ After downloading, wait for the system to stabilize again. What is the value of 
 
 Your next objective is to cause the pump to constantly change speed, thus causing oscillations in the process as well as increasing wear-and-tear on the pump. 
 
-The pump is controlled by a [Proportional Integral Derivative (PID) controller](https://en.wikipedia.org/wiki/PID_controller). PID is a mathematical control scheme that takes an input (inflow rate in our case) and a setpoint and calculates the value to send to an actuator (the pump in our case). PID controllers have three tuning parameters that, once tuned, allow them to control the process smoothly with little overshoot or ringing. You will change the tuning parameters of the pump's PID controller to purposefully cause the pump to oscillate.
+The pump is controlled by a [Proportional Integral Derivative (PID) controller](https://en.wikipedia.org/wiki/PID_controller). PID is a mathematical control scheme that takes an input (inflow rate) and a setpoint and calculates the value to send to an actuator (the pump). PID controllers have three tuning parameters that, once tuned, allow them to control the process smoothly with little overshoot or ringing. You will change the tuning parameters of the pump's PID controller to purposefully cause the pump to oscillate.
 
 
-* While Offline, find the PID PD9 on Rung 0015 of LAD 5. Click "Setup Screen" to access the tuning parameters. Change the values to match the values here. 
+1. While Offline, find the PID PD9 on Rung 0015 of LAD 5. Click "Setup Screen" to access the tuning parameters. Change the values to match the values here. 
 
-<div>
-<img align="left" src="./img/ex3_02.png" height="200">
-<img align="right" src="./img/ex3_03.png" height="200">  
-</div><br clear="all" /><br>
+    <div>
+    <img align="left" src="./img/ex3_02.png" height="200">
+    <img align="right" src="./img/ex3_03.png" height="200">  
+    </div><br clear="all" /><br>
 
-Download the project file and watch the simulation to see the result. Here is what mine looked like before and after the change.
+1. Download the project file and watch the simulation to see the result. Here is what mine looked like before and after the change.
 
-<div>
-<img align="left" src="./img/tank1.png" height="250">
-<img align="right" src="./img/ex3_01.png" height="250">  
-</div><br clear="all" /><br>
+    <div>
+    <img align="left" src="./img/tank1.png" height="250">
+    <img align="right" src="./img/ex3_01.png" height="250">  
+    </div><br clear="all" /><br>
 
 
-NOTE: Although the pump is oscillating wildly (1st order effect), there is less of an impact on the water level in the tank (2nd order effect). If operators are not monitoring the pump or inflow rate, they could completely miss this change until a hardware failure occurs (think Stuxnet).
+    NOTE: Although the pump is oscillating wildly (1st order effect), there is less of an impact on the water level in the tank (2nd order effect). If operators are not monitoring the pump or inflow rate, they could completely miss this change until a hardware failure occurs (think Stuxnet).
 
-Time permitting, try changing the three highlighted tuning parameters in other ways to see what effect it has. the values I chose were intentionally extreme, but you could make more subtle changes that would be harder to detect.
+1. Time permitting, try changing the three highlighted tuning parameters in other ways to see what effect it has. the values I chose were intentionally extreme, but you could make more subtle changes that would be harder to detect.
 
 
 

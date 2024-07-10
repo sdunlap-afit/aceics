@@ -12,11 +12,10 @@ Welcome to ICS security. Today you will explore a programmable logic controller 
 
 ## Schedule
 
-	0800 - 0900:	Discussion
-	0900 - 1100:	Intro/demo/Lab
-	1100 - 1200:	Someone else
-	1200 - 1300:	Lunch
-	1300 - 1330:	Discussion and/or questions
+	0830 - 0930:	Discussion
+	0930 - 1130:	Intro/demo/Lab
+	1130 - 1230:	Lunch
+	1230 - 1330:	Discussion and/or questions
 	1330 - 1530:	Lab time
 
 
@@ -50,6 +49,7 @@ Process control typically involves:
 <div align="center">
 <img src="./img/process_control.png" width="500">
 </div><br/>
+
 
 ## Equipment
 
