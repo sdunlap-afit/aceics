@@ -15,18 +15,17 @@ Welcome to ICS security. Today you will explore a programmable logic controller 
 	0830 - 0930:	Discussion
 	0930 - 1130:	Intro/demo/Lab
 	1130 - 1230:	Lunch
-	1230 - 1330:	Discussion and/or questions
+	1230 - 1330:	Shodan
 	1330 - 1530:	Lab time
 
 
 ## Outline
 
 * Discussion
-* Shodan demo
 * HILICS Setup
 * Exercises 1-3
 * Lunch
-* Q&A
+* Shodan
 * Discussion
 * Exercise 4
 	* Register Session
