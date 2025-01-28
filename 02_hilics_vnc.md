@@ -41,13 +41,13 @@ For more information about the simulation, read this document (**Note: you do no
 
 https://github.com/sdunlap-afit/hilics/blob/master/labs/L2_Door_Control.md
 
-Today, you will use the proprietary engineering software to disable the software-controlled safety feature that prevents the door from crashing down onto a passing care. Then you will modify the controller's code to make it automatically crash the door into a passing car. 
+Today, you will use the proprietary engineering software to disable the software-controlled safety feature that prevents the door from crashing down onto a passing car. Then you will modify the controller's code to make it automatically crash the door into a passing car. 
 
 <div align="center">
 <img src="./img/door2.png" width="500">
 </div><br/>
 
-## FLuid tank simulation
+## Fluid tank simulation
 
 This simulation represents a tank with a pump to control the inflow rate into the tank and a valve to control the level of fluid in the tank. This simulation uses analog sensors and actuators and is used to teach analog control and PID tuning. 
 
